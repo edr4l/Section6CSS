@@ -1,0 +1,52 @@
+
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(forest.jpg);
+  background-size: cover;
+  font-family: 'Dokdo', cursive;
+}
+
+nav, footer {
+  color: beige;
+}
+
+h2, p {
+  //width: 600px;
+  color: beige;
+  text-align: center;
+  //border: 1px solid white;
+  cursor: pointer;
+}
+
+p {
+  line-height: 20px;
+  font-size: 150%;
+}
+
+img {
+  float: right;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+   border: 1px solid pink
+}
+
+.active {
+  color: teal;
+}
+
+#div1 {
+  background: rgba(0,0,255,0.1);
+}
+
+#div2 {
+  background: rgba(255,0,0,0.1);
+}
